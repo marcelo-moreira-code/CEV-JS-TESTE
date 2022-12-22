@@ -18,8 +18,14 @@
     <h1>Olá, Mundo JS!</h1>        <!-- Comentário em HTML -->
     <p>Já me livrei da maldição!</p>
     <script>
-        var nome = window.prompt('Qual seu nome ?') // Vai perguntar 
-        window.alert('É um grande prazer em ti conhecer, ' +  nome + ' ! ') // + concatenação
+        var num1 = Number.parseInt(window.prompt('Digite um número: '))
+        var num2 = Number.parseInt(window.prompt('Digite outro número: '))
+        var soma = (num1) + Number.parseInt(num2)
+        //window.alert('A soma dos valores é ' + soma)
+        //window.alert(`A soma dos valores foi ${soma}`)
+        window.alert(`A soma entre ${num1} e ${num2} é igual a ${soma}`)
+        // + Concatenação  (str + str)
+        // + Adição  (number + number) 
     </script>    
 </body>
 </html>
