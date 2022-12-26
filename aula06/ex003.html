@@ -16,14 +16,14 @@
 </head>
 <body> 
     <h1>Olá, Mundo JS!</h1>        <!-- Comentário em HTML -->
-    <p>Já me livrei da maldição!</p>
+    <p>Somando duas variáveis...</p>
     <script>
         var num1 = Number.parseInt(window.prompt('Digite um número: '))
         var num2 = Number.parseInt(window.prompt('Digite outro número: '))
-        var soma = (num1) + Number.parseInt(num2)
+        let soma = (num1) + Number.parseInt(num2)
         //window.alert('A soma dos valores é ' + soma)
         //window.alert(`A soma dos valores foi ${soma}`)
-        window.alert(`A soma entre ${num1} e ${num2} é igual a ${soma}`)
+        document.write(`A soma entre os números ${num1} e ${num2} é igual a ${soma}`)
         // + Concatenação  (str + str)
         // + Adição  (number + number) 
     </script>    
