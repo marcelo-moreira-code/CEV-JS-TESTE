@@ -1,4 +1,4 @@
-/* Estrutura de Repetição com teste lógico no início
+/* |while| -> Estrutura de Repetição com teste lógico no início
 var cont = 1
 while (cont <= 5) {
     console.log(`Contando ${cont}`)
@@ -7,12 +7,19 @@ while (cont <= 5) {
 }
 */
 
-// Estrutura de Repetição com teste lógico no final
+/* |do  while| -> Estrutura de Repetição com teste lógico no final
 var c = 1
 do {
     console.log(`JavaScript ${c} -> ${c*c}`)
     c ++
 } while (c <= 5)
+*/
+
+// |for(in;test;inc){}| -> Estrutura de Repetição com variável de controle
+
+for (var c = 1;c <= 5; c++) {
+    console.log(`Python ${c}`)
+}
 
 
 
