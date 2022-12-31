@@ -11,7 +11,7 @@ function verificar() {
         //res.innerHTML = `Idade calculada é ${idade}`  // testando idade
         var gênero = ``
         
-        var img = document.createElement('img') // igual <img id='foto'> no HTML 
+        var img = document.createElement('img') // Criando tag p/img pelo JS   igual do  <img id='foto'> no HTML 
         img.setAttribute('id', 'foto')
 
         if (formulário_sex[0].checked) {
