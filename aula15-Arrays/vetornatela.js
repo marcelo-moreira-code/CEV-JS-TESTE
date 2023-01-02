@@ -30,3 +30,7 @@ for (let pos in valores) {
 console.log(`O valor 9 está no ${valores.indexOf(9)}`)
 */
 
+let nums = []
+nums.push(3)
+nums.push(6)
+console.log(nums)
