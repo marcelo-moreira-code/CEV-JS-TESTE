@@ -92,3 +92,21 @@ const allClearButton = document.querySelectorAll('[data-all-clear]')
 const previousOperandTextElement = document.querySelector('[data-previous-operand]')
 const currentOperandTextElement = document.querySelector('[data-current-operand]')
 
+// Posso ter errado Calculadora - checar depois
+const calculadora = new calculadora(previousOperandTextElement, currentOperandTextElement)
+
+numberButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        calculadora.appendNumber(button.innerText)
+        calculadora.uploadDisplay()
+    })
+})
+
+operationButtons.forEach(button =>{
+    button.addEventListener ('click' , () => {
+        calculadora.chooseOperation(button.innerText)
+        calculadora.updateDisplay()
+    })
+})
+
+equalsButton
