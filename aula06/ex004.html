@@ -22,8 +22,23 @@
         Isso sinaliza ao JavaScript que a aspa seguinte não é o fim de uma string, mas que deve aparecer dentro da string. Então, se você fosse imprimir isso no console, você obteria:
 
         Alan said, "Peter is learning JavaScript".
-        
+
         */
+       /*
+       Escapar sequências em strings
+        Aspas não são os únicos caracteres que podem ser escapados dentro de uma string. As sequências de escape permitem que você use caracteres que você não poderia usar em uma string em outras situações.
+
+        Código	Saída
+        \'	aspas simples
+        \"	aspas duplas
+        \\	barra invertida
+        \n	nova linha
+        \t	tab
+        \r	retorno de carro
+        \b	retroceder
+        \f	quebra de página
+
+       */
         var nome = window.prompt('Qual é seu nome? ')
         document.write(`Olá ${nome}, seu nome tem ${nome.length} letras <br/> <br/>`)
         document.write(`Seu nome em maiúsculas fica ${nome.toLocaleUpperCase()}<br/> <br/>`)
