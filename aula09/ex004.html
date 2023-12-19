@@ -11,11 +11,20 @@
             color: white;
             font-size: 50pt ;
              }
+        #clock {
+            width: 250px;
+            height: 80px;
+            background-color: lightcoral;
+            border-radius: 10px;
+            padding-left: 10px;
+            margin: auto;
+            
+        }
     </style>
 </head>
 <body>
     
-    <div id="clock"></div>
+    <div id="clock">
 
     <script>
         setInterval(() => {
@@ -27,5 +36,6 @@
             date.getSeconds()
                             }, 1000)
     </script>
+    </div>
 </body>
 </html>

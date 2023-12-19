@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eventos DOM</title>
     <style>
-        div#area {
+        div#corpo {
             font: 25pt Arial;
             background: rgb(48, 148, 48);
             color: white;
@@ -14,33 +14,34 @@
             height: 200px;
             line-height: 200px;
             text-align: center;
+            border-radius: 50px;
                 }
     </style>
 </head>
 <body>
     <!-- <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="saiu()"> -->
-    <div id="area">   
-        Interaja...
+    <div id="corpo">   
+        Interaja...corpo
     </div>
     <script>
-        var area = window.document.getElementById('area')  //-> serve para os 3 blocos, mas consome mais memória
-        area.addEventListener('click', clicar)
-        area.addEventListener('mouseenter', entrar)
-        area.addEventListener('mouseout', saiu)
+        var corpo = window.document.getElementById('corpo')  //-> serve para os 3 blocos, mas consome mais memória
+        corpo.addEventListener('click', clicar)
+        corpo.addEventListener('mouseenter', entrar)
+       corpo.addEventListener('mouseout', saiu)
 
         function clicar() {
             //var area = window.document.getElementById('area')
-            area.innerText = 'Clicou!'
-            area.style.background = 'red'
+            corpo.innerText = 'Clicou!'
+            corpo.style.background = 'red'
                             }
         function entrar() {
             //var area = window.document.getElementById('area')
-            area.innerText = 'Entrou!'
+            corpo.innerText = 'Entrou!'
                           }
         function saiu() {
             //var area = window.document.getElementById('area')
-            area.innerText = 'Saiu!'
-            area.style.background = 'green'
+           corpo.innerText = 'Saiu!'
+            corpo.style.background = 'green'
                          }                                    
     </script>
 </body>
