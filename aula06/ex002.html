@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,23 +9,31 @@
     <style>
         body {
             background-color: rgb(59, 86, 135);
-            color: white;     /* Comentário em CSS */
+            color: white;
+            /* Comentário em CSS */
             font: 20pt Arial;
             text-align: center;
-            
 
-            }
+
+        }
     </style>
 </head>
-<body> 
-    <h1>Olá, Mundo JS!</h1>        <!-- Comentário em HTML -->
+
+<body>
+    <h1>Olá, Mundo JS!</h1> <!-- Comentário em HTML -->
     <p>Já me livrei da maldição!</p>
     <script>
+        /*
         let nome = window.prompt('Qual seu nome ?') // Vai perguntar 
-        window.alert('É um grande prazer em ti conhecer, ' +  nome + ' ! ') // + concatenação
-        document.write(`É um prazer conhecê-la , ${nome} !<br/>`)
+        window.alert('É um grande prazer em ti conhecer, ' + nome + ' ! ') // + concatenação
+        document.write(`É um prazer conhecê-la/lo , ${nome} !<br/>`)
         document.write(`Você é muito linda !`)
-        
-    </script>    
+        */
+        var n1 = prompt("Digite um número:")
+        var n2 = prompt("Digite um segundo número: ")
+        document.write(`A soma dos números deu: ${parseInt(n1) + parseInt(n2)}`)
+
+    </script>
 </body>
+
 </html>
