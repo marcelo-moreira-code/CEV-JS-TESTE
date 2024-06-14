@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, World!</title>
+</head>
+
+<body onload="countToTen();">
+    <h1>Let's Count to 10 with JavaScript!</h1>
+    <p id="theCount"></p>
+    <script>
+        function countToTen() {
+            var count = 0;
+            while (count < 10) {
+                count++;
+                document.getElementById("theCount").innerHTML += count + "<br/>";
+            }
+        }
+    </script>
+</body>
+
+</html>
