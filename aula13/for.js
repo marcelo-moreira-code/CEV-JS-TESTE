@@ -17,7 +17,6 @@ do {
 
 // |for(in;test;inc){}| -> Estrutura de Repetição com variável de controle
 
-for (var c = 1;c <= 5; c++) {
     console.log(`Python ${c}`)
 }
 

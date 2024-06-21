@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,22 @@
     <title>Tabuada</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
     <header>
         <h1>Tabuada</h1>
     </header>
 
     <section>
-        
+
         <div id="num">
             Número :
             <input type="number" name="txtn" id="txtn">
             <input type="button" value="Gerar Tabuada" onclick="gerar()">
             <p>Resultado:</p>
+            <button classe="limpa" type="button" onclick="limpar()">Limpar</button>
         </div>
-        
+
         <div id="res">
         </div>
 
@@ -31,4 +34,5 @@
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
